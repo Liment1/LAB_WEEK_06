@@ -62,6 +62,54 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+
+                    Gender.Male,
+                    CatBreed.BalineseJavanese,
+                    "Scream",
+                    "Likes to Scream a lot",
+                    "https://cdn2.thecatapi.com/images/b.jpg"
+                ),
+                CatModel(
+
+                    Gender.Male,
+                    CatBreed.ExoticShorthair,
+                    "Greedy Green",
+                    "Might be Green",
+                    "https://cdn2.thecatapi.com/images/br.jpg"
+                ),
+                CatModel(
+
+                    Gender.Female,
+                    CatBreed.AmericanCurl,
+                    "Big Blue",
+                    "Somewhat big",
+                    "https://cdn2.thecatapi.com/images/d.jpg"
+                ),
+                CatModel(
+
+                    Gender.Male,
+                    CatBreed.AmericanCurl,
+                    "Link",
+                    "HyperLink",
+                    "https://cdn2.thecatapi.com/images/e.jpg"
+                ),
+                CatModel(
+
+                    Gender.Unknown,
+                    CatBreed.BalineseJavanese,
+                    "Kling Klang",
+                    "Blip Blop",
+                    "https://cdn2.thecatapi.com/images/h0.jpg"
+                ),
+                CatModel(
+
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Ultron",
+                    "Pembantai Marvel Rivals",
+                    "https://cdn2.thecatapi.com/images/g.jpg"
                 )
             )
         )
