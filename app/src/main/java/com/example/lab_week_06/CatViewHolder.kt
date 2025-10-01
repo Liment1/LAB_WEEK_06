@@ -1,6 +1,5 @@
 package com.example.lab_week_06
 
-import android.provider.ContactsContract.CommonDataKinds.Organization.DEPARTMENT
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
@@ -13,7 +12,7 @@ private val FEMALE_SYMBOL = "\u2640"
 private val MALE_SYMBOL = "\u2642"
 private const val UNKNOWN_SYMBOL = "?"
 
-class CatViewHolder(containerView: View, private val imageLoader: ImageLoader) : RecyclerView.ViewHolder(containerView) {
+class CatViewHolder(containerView: View, private val imageLoader: GlideImageLoader) : RecyclerView.ViewHolder(containerView) {
 //containerView is the container layout of each item list
 //Here findViewById is used to get the reference of each views inside  the container
     private val catBiographyView: TextView by lazy {
